@@ -15,8 +15,61 @@
 </head>
 <body>
     
-  
-    
+  <p>
+      <a href="#content1" class="btn btn-primary" data-bs-toggle="collapse">Link with href</a>
+      <button class="btn btn-info" href="#content2" data-bs-toggle="collapse">Button</button>
+      <button class="btn btn-info" data-bs-target="#content2" data-bs-toggle="collapse">BestPractice</button>
+  </p>
+    <!--  -->
+
+  <div class="card collapse" id="content1">
+      <div class="card-body">Link</div>
+  </div>
+
+  <div class="card collapse" id="content2">
+      <div class="card-body">Button</div>
+  </div>
+
+
+<br>
+
+  <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target=".card">Both</button>
+
+  <hr>
+  <br>
+
+<div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item-1">Accordion item 1</button>
+        </h2>
+        <div class="collapse" id="item-1">
+            <div class="accordion-collapse">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, laudantium.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item-2">Accordion item 2</button>
+        </h2>
+        <div class="collapse" id="item-2">
+            <div class="accordion-collapse">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, laudantium.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item-3">Accordion item 3</button>
+        </h2>
+        <div class="collapse show" id="item-3">
+            <div class="accordion-collapse">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, laudantium.
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -45,12 +98,6 @@
 
 
 
-
-
-
-
-
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
